@@ -1,0 +1,24 @@
+{
+  "name": "poc-reactpdf",
+  "version": "1.0.0",
+  "description": "Small example using react-pdf.org",
+  "main": "index.js",
+  "author": "mlecoq",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config ./webpack.config.js --mode development && node dist/bundle"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^1.4.0",
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
